@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Century Schoolbook", "Bodoni MT", sans-serif;
+    background: #eae5e5;
+    color: #4d4d4d;
+}
+#conteudo-principal
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+
+
+
+
+}
+
+#cabecalho{
+
+    width: 900px;
+    height: 95px;
+    margin: 0px auto;
+
+}
+
+#titulo{
+    float: left;
+}
+
+#menu{
+    margin: 0px auto;
+    padding: 50px 0px;
+    list-style: none;
+    font-size: 16px;
+}
+
+#menu li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+
+/* Editando os links do menu Principal */
+
+
+#menu a:link{
+    color:#8b8b8b;
+    text-decoration: none;
+}
+#menu a:visited
+{
+    color: #8b8b8b;
+
+}
+#menu a:hover
+{
+    color: #61d0d4;
+
+}
+
+/* primeiro hello*/
+
+
+#hello{
+    font-size: 70px;
+}
+#about{
+    font-size: 40px;
+}
+
+/* Editando conteúdo principal*/
+
+
+#principal{
+    width: 900px;
+    margin: 20px auto;
+    height: auto;
+
+
+
+
+}
+
+#titulo-principal{
+    width: 300px;
+    height: 150px;
+    top: 200px;
+    margin-left: 400px;
+
+}
+
+#foto-perfil {
+    height: 350px;
+    width: 350px;
+    background: #aaa;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -280px;
+    float: left;
+    overflow: hidden;
+}
+#foto-perfil img
+{
+    position: absolute;
+    bottom: 0;
+    width: 120%;
+    height: 100%;
+
+
+}
+
+/* Edição de menu-botao*/
+
+
+#menu-botao
+{
+    width: 530px;
+    height: 180px;
+    font-size: 14px;
+    margin-left: 380px;
+}
+
+#menu-botao li {
+
+    list-style: none;
+    border-radius: 50%;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin: 0px 9px;
+    color: white;
+    text-align: center;
+    line-height: 130px;
+}
+
+
+#menu-botao ul{
+    margin: 10px 5px;
+
+}
+
+
+
+/* Editando cor Sub-Menu*/
+#botao1
+{
+    background: #e83556;
+}
+#botao1:hover
+{
+    background: #ac243d;
+}
+
+#botao2
+{
+    background: #61d0d4;
+}
+#botao2:hover
+{
+    background: #368083;
+}
+
+#botao3
+{
+    background: #d1c926;
+}
+
+#botao3:hover
+{
+    background: #99931a;
+}
+
+#sobre-autor
+{
+    width: 500px;
+    height: 130px;
+    font-size: 14px;
+    margin-left: 390px;
+
+}
+
+/* Editando Rodapé*/
+
+
+#rodape
+{
+    width: 100%;
+    height: 120px;
+    background: #e83556;
+    bottom: 0;
+
+
+}
+.rodape-icones li
+{
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #61d0d4;
+    color: #e83556;
+    text-align: center;
+    line-height: 50px;
+    margin: 40px 105px;
+
+}
+.rodape-icones
+{
+
+    width: 1080px;
+    height: 120px;
+    margin: 0px 80px;
+
+
+}
+#contatos
+{
+    font-size: 12px;
+    color: white;
+}
+
+#contato-tel
+{
+    width: 180px;
+    position: absolute;
+    margin: 45px 245px;
+
+}
+#contato-email
+{
+    width: 180px;
+    position: absolute;
+    margin: 45px 510px;
+
+}
+#contato-rede-social
+{
+    width: 180px;
+    position: absolute;
+    margin: 45px 775px;
+
+}
+
+#contato-direito
+{
+    width: 180px;
+    position: absolute;
+    margin: 45px 1035px;
+
+}
+
+
+/* Editando o Resume*/
+#resume
+{
+    font-size: 60px;
+    width: 600px;
+    margin: 10px 20px;
+
+
+}
+.ciclo-work-experience
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: #e83556;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 130px;
+}
+#work-experience
+{
+    font-size: 16px;
+    width: 600px;
+    margin: 30px 20px;
+
+
+
+}
+#work-texto1
+{
+    font-size: 16px;
+    width: 460px;
+    margin: 0px 140px;
+
+}
+
+#work-experience2
+{
+    font-size: 16px;
+    width: 600px;
+    margin: 40px 20px;
+
+}
+#work-texto2
+{
+    font-size: 16px;
+    width: 460px;
+    margin: 0px 140px;
+
+}
+
+#education
+{
+    font-size: 16px;
+    width: 600px;
+    margin: 40px 20px;
+
+
+}
+#education-texto
+{
+    font-size: 16px;
+    width: 460px;
+    margin: 0px 140px;
+
+}
+/*-------------------Editando SKILL-------------------*/
+
+.box-skills
+{
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin: -740px 0px;
+
+}
+
+.box-language
+{
+    height: 300px;
+    width: 200px;
+    float: right;
+    margin: -450px 0px;
+
+
+}
+.icon-skill
+{
+    float: left;
+
+}
+#ciclo-skill
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #61d0d4;
+    text-align: center;
+    line-height: 75px;
+    top: 0;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    background-color: #ddd;
+    float: right;
+    margin-top: 20px;
+}
+.skills {
+    text-align: right;
+    padding: 0px 10px;
+    color: white;
+}
+.photoshop {width: 50%; background-color: #2243c0;}
+.illustrator {width: 40%; background-color: #5c2b21;}
+.html {width: 70%; background-color: #c12906;}
+.css {width: 60%; background-color: #0692c1;}
+.javascript {width: 50%; background-color: #af00fa;}
+
+
+
+#ciclo-language
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #61d0d4;
+    text-align: center;
+    line-height: 75px;
+    top: 0;
+    color: white;
+
+}
+
+
+/*--------------------------------Editando Projetos-----------------------------------*/
+#project1
+{
+    font-size: 16px;
+    width: 460px;
+    margin: 0px 140px;
+
+}
+.ciclo-project
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: #61d0d4;
+    color: white;
+    float: left;
+    text-align: center;
+    line-height: 130px;
+}
+
+/*--------------------------------Editando Contato-----------------------------------*/
+
+
+
+
+
