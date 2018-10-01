@@ -30,6 +30,7 @@ body {
 
 #titulo{
     float: left;
+    margin-right: -300px;
 }
 
 #menu{
