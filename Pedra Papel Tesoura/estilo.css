@@ -1,0 +1,78 @@
+body {
+    font-family: Monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    text-decoration: underline;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+.btn {
+    font-size: 60px;
+    cursor: pointer;
+    margin: 15px;
+    width: 5%;
+    height: 5%;
+}
+
+
+
+/*Placar*/
+table {
+    border: 3px solid #000;
+    margin: auto;
+}
+
+th {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+td {
+    font-size: 15px;
+}
+
+td, td {
+    padding: 15px;
+}
+
+button {
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 15px;
+    font-family: Monospace;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+#resultadoJogador
+{
+    color: #000fff;
+}
+#resultadoComputador
+{
+    color: #008000;
+}
+#vencedor
+{
+    color: #ff0000;
+}
