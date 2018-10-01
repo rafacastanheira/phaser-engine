@@ -277,7 +277,7 @@ body {
     text-align: center;
     line-height: 130px;
 }
-#work-experience
+.work-experience
 {
     font-size: 16px;
     width: 600px;
@@ -395,13 +395,14 @@ body {
 
 
 /*--------------------------------Editando Projetos-----------------------------------*/
-#project1
+.project1
 {
     font-size: 16px;
     width: 460px;
     margin: 0px 140px;
 
 }
+
 .ciclo-project
 {
     height: 130px;
@@ -412,6 +413,18 @@ body {
     float: left;
     text-align: center;
     line-height: 130px;
+}
+
+.work-experience a:link
+{
+    text-decoration: none;
+    color: #4d4d4d;
+
+}
+.work-experience a:visited
+{
+    text-decoration: none;
+    color: #4d4d4d;
 }
 
 /*--------------------------------Editando Contato-----------------------------------*/
