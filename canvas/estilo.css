@@ -1,0 +1,15 @@
+#container{
+    width: 100%;
+
+}
+#containerJogo{
+    width: 410px;
+    margin: 2px auto;
+
+}
+
+#game{
+    border: 3px solid;
+
+}
+
