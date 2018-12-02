@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+</head>
+<body>
+<div id="container">
+    <video id="video1" width="420" autoplay style="display: none">
+        <source src="mov_bbb.mp4" type="video/mp4">
+    </video>
+
+</div>
+
+
+<div id="container2">
+    <canvas id="myCanvas" width="620" height="400" style="position: absolute"></canvas>
+    <img src="pulo.png" id="imgPulo" style="display: none" >
+    <img src="pulo2.png" id="imgPulo2" style="display: none" >
+</div>
+
+
+
+
+<script>
+    var current = document.getElementById('video1');
+    var tempo = setInterval(teste,10);
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    var foto = document.getElementById("imgPulo");
+    var foto2 = document.getElementById("imgPulo2");
+
+
+
+    var i;
+
+
+
+    current.addEventListener("play", function () {
+        i = window.setInterval(function () {
+            ctx.drawImage(current,5,5,620,300)
+        }, 20);
+        
+    }, false);
+
+
+
+    function teste() {
+
+        if(current.currentTime > 1.99)
+        {
+            current.pause();
+            clearInterval(tempo);
+            clearInterval(i);
+            ctx.drawImage(foto,5,5,100,100);
+            ctx.drawImage(foto2,520,5,100,100);
+
+
+            c.addEventListener('click', function (event) {
+                var x = event.screenX;
+                var y = event.screenY;
+                var coords = x + " + " + y;
+
+                if (!current.ended)
+                {
+                    if ((x>12 && x<113) && (y>111 && y < 208))
+                    {
+                        pula2();
+                    }
+                    if ((x>526 && x<627) && (y>109 && y < 206))
+                    {
+                        pula();
+                    }
+                }
+
+
+            });
+
+
+        }
+    }
+
+
+
+
+    function pula() {
+        current.currentTime = 5;
+        current.play();
+
+    }
+    function pula2() {
+        current.currentTime = 9;
+        current.play();
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
