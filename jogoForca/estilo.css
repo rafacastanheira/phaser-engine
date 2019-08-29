@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Century Schoolbook", "Bodoni MT", sans-serif;
+    background: #eae5e5;
+    color: #4d4d4d;
+}
+h1
+{
+    font-size: 100px;
+    text-align: center;
+
+}
+#menuInicial
+{
+    width: 900px;
+    height: 420px;
+    margin: 10px auto 0px auto;
+    background: #ffffff;
+
+}
+#telaJogo
+{
+    width: 900px;
+    height: 420px;
+    margin: 10px auto 0px auto;
+    background: #ffffff;
+    display: none;
+
+}
+
+
+
+
+
+/* Editando os botoes */
+.tecladoBtn
+{
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+#tecladoBtnA
+{
+    margin-top: 50px;
+}
+.btn
+{
+    font-size: 20px;
+    padding: 5px;
+
+}
+.letra
+{
+    padding: 20px;
+    margin-top: 10px;
+
+
+}
+
+#btnReset
+{
+    float: right;
+    margin-right: 400px;
+}
+#btnVoltar
+{
+    float: right;
+    margin-right: 100px;
+}
+
+/* Editando as opções de tela */
+#tela
+{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px ;
+}
+#tela div
+{
+    display: inline;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#menu
+{
+    text-align: center;
+    padding-top: 100px;
+    width: 450px;
+    margin-left: 225px;
+}
+
+#ok
+{
+    display: block;
+    width: 100px;
+    margin-left: 175px;
+    margin-top: 20px;
+
+}
+
+/* Editando a imagem da contagem erros */
+#animacao img
+{
+    width: 200px;
+    height: 400px;
+    float: left;
+    display: block;
+}
+
+
+/* Editando a frase de fim do jogo */
+#fimJogo
+{
+    color: #ff0000;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    display: none;
+}
