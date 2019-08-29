@@ -1,0 +1,7 @@
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\bin\Debug\AppBanco.exe.config
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\bin\Debug\AppBanco.exe
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\bin\Debug\AppBanco.pdb
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\obj\Debug\AppBanco.csprojAssemblyReference.cache
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\obj\Debug\AppBanco.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\obj\Debug\AppBanco.exe
+C:\Users\Bruno Bonadiman\source\repos\AppBanco\AppBanco\obj\Debug\AppBanco.pdb

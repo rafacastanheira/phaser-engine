@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+<div class="caixaJogo">
+    <h1>Pedra, Papel e Tesoura</h1>
+
+
+    <h3>Selecione a opção:</h3>
+
+
+    <!--Botões-->
+    <div class="containerJogada">
+        <i id="pedra" class="btn"><img class="btn" src="img/pedra.png"></i>
+        <i id="papel" class="btn"><img class="btn" src="img/papel.png"></i>
+        <i id="tesoura" class="btn"><img class="btn" src="img/tesoura.png"></i>
+    </div>
+
+    <div class="escolhaComputador">
+        <h3>Escolha do computador:</h3>
+        <p id="resultadoJogador"></p>
+        <p id="resultadoComputador"></p>
+        <p id="vencedor"></p><i id="imgVencedor"></i>
+    </div>
+
+    <!--Placar-->
+    <table>
+        <tr>
+            <th colspan="2">Placar</th>
+        </tr>
+        <tr>
+            <td>Jogador</td>
+            <td>Computador</td>
+        </tr>
+        <tr>
+            <td id="placarJogador">0</td>
+            <td id="placarComputador">0</td>
+        </tr>
+    </table>
+
+    <button id="reset">Reset</button>
+</div>
+
+<script type="text/javascript" src="jscript.js" ></script>
+</body>
+</html>
